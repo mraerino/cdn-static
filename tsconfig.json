@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "webworker",
+            "es6",
+        ],
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es6"
+    },
+    "include": [
+        "./cli/**/*",
+        "./worker/**/*"
+    ]
+}
