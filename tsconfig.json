@@ -2,13 +2,16 @@
     "compilerOptions": {
         "lib": [
             "webworker",
-            "es6",
+            "es2015",
+            "es2016",
+            "es2017",
+            "esnext"
         ],
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "es6",
-        "target": "es6"
+        "target": "esnext"
     },
     "include": [
         "./cli/**/*",
