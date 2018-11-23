@@ -20,5 +20,8 @@
   },
   "scripts": {
     "build": "webpack"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.358.0"
   }
 }
